@@ -5,14 +5,14 @@
 # ABOUT THIS PROGRAM
 #
 # NAME
-#	Install-brew.sh
+# Install-brew.sh
 #
 # SYNOPSIS
 # sudo Install-Brew.sh
 #
 # DESCRIPTION
-#	This does 4 things: Installs Xcode if missing, Downloads Brew tarball, Sets correct permissions for necessary folders, and can install brew apps as login user. 
-#	This script is meant to be run from an MDM tool or as sudo.
+# This does 4 things: Installs Xcode if missing, Downloads Brew tarball, Sets correct permissions for necessary folders, and can install brew apps as login user. 
+# This script is meant to be run from an MDM tool or as sudo.
 #
 # Xcode install requires pre-approval for Terminal to Accesibility since it uses Front-End automation for "tell" portion of the script.
 # Install Brew Portion requres pre-approval for Terminal to Full Disk write to be able to modify directories /usr/local/ (10.15+)
